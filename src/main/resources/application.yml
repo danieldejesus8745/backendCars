@@ -10,9 +10,9 @@ spring:
       on-profile: dev
 
   datasource:
-    url: jdbc:mysql://localhost:3306/carsdb
+    url: jdbc:mysql://localhost:3306/mysql
     username: root
-    password: 55643988
+    password: mysql
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
